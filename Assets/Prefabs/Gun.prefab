@@ -231,7 +231,7 @@ MonoBehaviour:
   firePoint: {fileID: 1380996127033967625}
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 136
+    m_Bits: 128
 --- !u!1 &8218992759558330169
 GameObject:
   m_ObjectHideFlags: 0
