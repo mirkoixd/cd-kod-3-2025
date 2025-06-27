@@ -176,8 +176,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.239, z: 0.723}
   m_LocalScale: {x: 0.78787, y: 0.7681165, z: 0.27575448}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9077679206482804770}
+  m_Children: []
   m_Father: {fileID: 1959881139483411119}
   m_LocalEulerAnglesHint: {x: 73.445, y: 0, z: 0}
 --- !u!33 &3273786256039825552
@@ -230,37 +229,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4538733597646937783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9077679206482804770}
-  m_Layer: 0
-  m_Name: fireSpot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9077679206482804770
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4538733597646937783}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.04, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5945861907745439019}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5335463758253636345
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,37 +260,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1959881139483411119}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5701744543584941039
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6568017328599859724}
-  m_Layer: 0
-  m_Name: fireSpot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6568017328599859724
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5701744543584941039}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.04, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5772183132725175189}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5949017167237421611
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419550784842836407}
-  - component: {fileID: 4951532065930217682}
+  - component: {fileID: 3932780843785407954}
   m_Layer: 6
   m_Name: SniperGun
   m_TagString: Untagged
@@ -358,7 +295,7 @@ Transform:
   - {fileID: 6221791322022531497}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4951532065930217682
+--- !u!114 &3932780843785407954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -367,15 +304,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 5949017167237421611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d5ba7d8cb33704d89e10e3bca7bb14, type: 3}
+  m_Script: {fileID: 11500000, guid: 9368230fe4d0cea43925a77d08f88640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5004801603692532713, guid: 0b541e353c6a1744c9d9cdc031a1fd19, type: 3}
-  fireRadius: 40
-  fireRate: 0.1
-  damage: 50
-  maxDistance: 40
-  bulletSpeed: 40
+  fireRadius: 15
+  fireRate: 1
+  damage: 10
+  maxDistance: 20
+  bulletSpeed: 15
   firePoint: {fileID: 1380996127033967625}
   enemyLayer:
     serializedVersion: 2
@@ -696,8 +633,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0.487, z: 2.903}
   m_LocalScale: {x: 0.78787, y: 2.9272606, z: 0.36927465}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6568017328599859724}
+  m_Children: []
   m_Father: {fileID: 1959881139483411119}
   m_LocalEulerAnglesHint: {x: 91.675995, y: 0, z: 0}
 --- !u!33 &8009467080376857022

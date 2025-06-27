@@ -186,7 +186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419550784842836407}
-  - component: {fileID: 4951532065930217682}
+  - component: {fileID: 1009073586929990577}
   m_Layer: 6
   m_Name: Gun
   m_TagString: Untagged
@@ -210,7 +210,7 @@ Transform:
   - {fileID: 1959881139483411119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4951532065930217682
+--- !u!114 &1009073586929990577
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,19 +219,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5949017167237421611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d5ba7d8cb33704d89e10e3bca7bb14, type: 3}
+  m_Script: {fileID: 11500000, guid: 9368230fe4d0cea43925a77d08f88640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5004801603692532713, guid: 0b541e353c6a1744c9d9cdc031a1fd19, type: 3}
   fireRadius: 15
-  fireRate: 2
-  damage: 5
+  fireRate: 1
+  damage: 10
   maxDistance: 20
   bulletSpeed: 15
   firePoint: {fileID: 1380996127033967625}
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 136
 --- !u!1 &8218992759558330169
 GameObject:
   m_ObjectHideFlags: 0

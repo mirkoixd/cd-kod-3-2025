@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4688877759498792864}
   - component: {fileID: 3745564063701080539}
   - component: {fileID: 3189700682679287994}
-  - component: {fileID: 6303902021029558510}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -139,22 +138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startWeaponPrefab: {fileID: 5949017167237421611, guid: 3c913bde9e9ec6f45bd4cae89f0fe298, type: 3}
   handPoint: {fileID: 296327539225887946}
---- !u!114 &6303902021029558510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691242664667243332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6927eb3e1e886344abf9a4c4a1352788, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRadius: 15
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!1 &2083694696551929152
 GameObject:
   m_ObjectHideFlags: 0
