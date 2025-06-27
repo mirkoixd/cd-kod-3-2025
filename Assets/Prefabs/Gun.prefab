@@ -224,9 +224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5004801603692532713, guid: 0b541e353c6a1744c9d9cdc031a1fd19, type: 3}
   fireRadius: 15
-  fireRate: 1
-  damage: 10
-  maxDistance: 20
+  fireRate: 2
+  damage: 4
+  maxDistance: 15
   bulletSpeed: 15
   firePoint: {fileID: 1380996127033967625}
   enemyLayer:
